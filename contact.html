@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Contact | NextGenStack Inc</title>
-  <meta name="description" content="Contact NextGenStack Inc to discuss AI integration, engineering delivery, or talent solutions.">
+  <meta name="description" content="Contact NextGenStack Inc to discuss AI implementation, engineering delivery, or enterprise modernization initiatives.">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -23,32 +23,42 @@
 
   <!-- HEADER -->
   <div class="container section" style="text-align:center;">
-    <h1>Contact</h1>
+    <h1>Contact NextGenStack</h1>
     <p style="max-width:850px; margin:0 auto;">
-      Share your requirement and we’ll respond with a clear next step—delivery approach, profile options, and timeline.
+      Share your initiative and we’ll respond with a clear delivery approach,
+      relevant expertise, and next steps.
     </p>
   </div>
 
-  <!-- SIMPLE FORM -->
+  <!-- CONTACT FORM -->
   <div class="container section">
     <div class="card" style="max-width:720px; margin:0 auto;">
-      <h3>Send a message</h3>
+      <h3>Start a Conversation</h3>
 
-      <form action="mailto:hr@nextgenstackinc.com" method="POST" enctype="text/plain">
+      <!-- Netlify Form -->
+      <form name="contact" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="contact">
+
         <p>
-          <input class="input" type="text" name="name" placeholder="Your Name" required>
+          <input type="text" name="name" placeholder="Full Name" required>
         </p>
+
         <p>
-          <input class="input" type="email" name="email" placeholder="Your Email" required>
+          <input type="email" name="email" placeholder="Business Email" required>
         </p>
+
         <p>
-          <textarea class="input" name="message" placeholder="How can we help?" rows="6" required></textarea>
+          <textarea name="message" placeholder="Briefly describe your requirement" rows="6" required></textarea>
         </p>
-        <button class="btn" type="submit">Send</button>
+
+        <button class="btn" type="submit">Submit</button>
       </form>
 
-      <p style="margin-top:18px; color: rgba(255,255,255,0.7);">
-        Prefer email? Write to: <a href="mailto:hr@nextgenstackinc.com" style="color:#3df5c0;">hr@nextgenstackinc.com</a>
+      <p style="margin-top:22px; color: rgba(255,255,255,0.75); font-size:14px;">
+        For direct inquiries: 
+        <a href="mailto:hr@nextgenstackinc.com" style="color:#3df5c0;">
+          hr@nextgenstackinc.com
+        </a>
       </p>
     </div>
   </div>
@@ -56,7 +66,7 @@
   <!-- FOOTER -->
   <div class="footer">
     <p><strong>NextGenStack Inc</strong></p>
-    <p>AI Implementation | Engineering Delivery | Trusted Talent</p>
+    <p>AI-First Consulting | Enterprise Delivery | Trusted Engineering Talent</p>
     <p>© 2026 NextGenStack Inc. All Rights Reserved.</p>
   </div>
 
