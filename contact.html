@@ -35,9 +35,12 @@
     <div class="card" style="max-width:720px; margin:0 auto;">
       <h3>Start a Conversation</h3>
 
-      <!-- Netlify Form -->
-      <form name="contact" method="POST" data-netlify="true">
+      <!-- NETLIFY FORM -->
+      <form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="bot-field" action="/success.html">
+        
+        <!-- Required hidden inputs -->
         <input type="hidden" name="form-name" value="contact">
+        <input type="hidden" name="bot-field">
 
         <p>
           <input type="text" name="name" placeholder="Full Name" required>
@@ -55,11 +58,12 @@
       </form>
 
       <p style="margin-top:22px; color: rgba(255,255,255,0.75); font-size:14px;">
-        For direct inquiries: 
+        Direct inquiries:
         <a href="mailto:hr@nextgenstackinc.com" style="color:#3df5c0;">
           hr@nextgenstackinc.com
         </a>
       </p>
+
     </div>
   </div>
 
