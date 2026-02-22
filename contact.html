@@ -23,53 +23,61 @@
 
   <!-- HEADER -->
   <div class="container section" style="text-align:center;">
-    <h1>Contact NextGenStack</h1>
-    <p style="max-width:850px; margin:0 auto;">
-      Share your initiative and we’ll respond with a clear delivery approach,
-      relevant expertise, and next steps.
+    <h1>Start a Conversation</h1>
+    <p style="max-width:820px; margin:0 auto;">
+      Tell us about your initiative. We’ll respond with a structured approach and next steps.
     </p>
   </div>
 
   <!-- CONTACT FORM -->
   <div class="container section">
-    <div class="card" style="max-width:720px; margin:0 auto;">
-      <h3>Start a Conversation</h3>
+    <div class="card" style="max-width:680px; margin:0 auto; padding:40px;">
 
       <form name="contact"
-      method="POST"
-      action="/success.html"
-      data-netlify="true">
+            method="POST"
+            action="/success.html"
+            data-netlify="true">
 
-  <input type="hidden" name="form-name" value="contact" />
+        <input type="hidden" name="form-name" value="contact" />
 
-  <p>
-    <label>Full Name:
-      <input type="text" name="name" required />
-    </label>
-  </p>
+        <!-- Name -->
+        <div style="margin-bottom:22px;">
+          <label style="display:block; margin-bottom:8px; font-weight:500;">
+            Full Name
+          </label>
+          <input type="text" name="name" required
+                 style="width:100%; padding:14px; border-radius:6px; border:1px solid #ccc; font-size:15px;">
+        </div>
 
-  <p>
-    <label>Email:
-      <input type="email" name="email" required />
-    </label>
-  </p>
+        <!-- Email -->
+        <div style="margin-bottom:22px;">
+          <label style="display:block; margin-bottom:8px; font-weight:500;">
+            Business Email
+          </label>
+          <input type="email" name="email" required
+                 style="width:100%; padding:14px; border-radius:6px; border:1px solid #ccc; font-size:15px;">
+        </div>
 
-  <p>
-    <label>Message:
-      <textarea name="message" required></textarea>
-    </label>
-  </p>
+        <!-- Message -->
+        <div style="margin-bottom:28px;">
+          <label style="display:block; margin-bottom:8px; font-weight:500;">
+            Message
+          </label>
+          <textarea name="message" rows="5" required
+                    style="width:100%; padding:14px; border-radius:6px; border:1px solid #ccc; font-size:15px;"></textarea>
+        </div>
 
-  <p>
-    <button type="submit">Send</button>
-  </p>
+        <!-- Submit -->
+        <button type="submit" class="btn" style="width:100%; padding:14px; font-size:16px;">
+          Send Message
+        </button>
 
-</form>
-      <p style="margin-top:22px; color: rgba(255,255,255,0.75); font-size:14px;">
-        Direct inquiries:
-        <a href="mailto:hr@nextgenstackinc.com" style="color:#3df5c0;">
-          hr@nextgenstackinc.com
-        </a>
+      </form>
+
+      <!-- Direct Email -->
+      <p style="margin-top:28px; text-align:center; font-size:14px;">
+        Prefer email?  
+        <a href="mailto:hr@nextgenstackinc.com">hr@nextgenstackinc.com</a>
       </p>
 
     </div>
@@ -78,7 +86,7 @@
   <!-- FOOTER -->
   <div class="footer">
     <p><strong>NextGenStack Inc</strong></p>
-    <p>AI-First Consulting | Enterprise Delivery | Trusted Engineering Talent</p>
+    <p>AI-First Consulting | Platform Modernization | Enterprise Delivery</p>
     <p>© 2026 NextGenStack Inc. All Rights Reserved.</p>
   </div>
 
