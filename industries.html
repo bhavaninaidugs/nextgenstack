@@ -3,83 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Industries | NextGenStack Inc</title>
+  <title>Industries | NextGenStack INC</title>
   <meta name="description" content="NextGenStack delivers AI-first enterprise engineering and platform modernization across Financial Services, Healthcare, and Enterprise SaaS industries.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="site-bg" aria-hidden="true"></div>
 
-  <!-- NAVBAR -->
-  <div class="navbar">
-    <div><strong>NextGenStack</strong></div>
-    <div>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="NextGenStack INC home">
+      <img src="assets/logo-nextgenstack-inc.svg" alt="NextGenStack INC logo" class="brand-logo">
+    </a>
+    <nav class="nav-links" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
-      <a href="industries.html">Industries</a>
+      <a href="industries.html" aria-current="page">Industries</a>
       <a href="about.html">About</a>
       <a href="contact.html">Contact</a>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <!-- HEADER -->
-  <div class="container section" style="text-align:center;">
-    <h1>Industry-Aligned Enterprise Delivery</h1>
-    <p style="max-width:850px; margin:0 auto;">
-      We tailor AI integration, cloud modernization, and engineering execution to domain-specific
-      constraints—security, compliance, performance, and operational resilience.
-    </p>
-  </div>
+  <main>
+    <section class="page-hero container reveal">
+      <p class="eyebrow">Industry Alignment</p>
+      <h1>Industry-Aligned Enterprise Delivery</h1>
+      <p>
+        We tailor AI integration, cloud modernization, and engineering execution to domain-specific constraints,
+        including security, compliance, performance, and operational resilience.
+      </p>
+      <div class="page-media">
+        <img src="assets/visuals/cloud.avif" alt="Industry delivery visual">
+      </div>
+    </section>
 
-  <!-- INDUSTRY CARDS -->
-  <div class="container section">
-    <div class="grid">
-
-      <div class="card">
-        <h3>Financial Services & FinTech</h3>
-        <p>
-          Enterprise-grade financial platforms built with API-led architecture, strict security controls,
-          and AI-enhanced workflows. We support modernization programs that demand reliability,
-          regulatory alignment, and performance at scale.
-        </p>
+    <section class="container section reveal">
+      <div class="grid-three">
+        <article class="info-card">
+          <h3>Financial Services & FinTech</h3>
+          <p>Enterprise-grade financial platforms with API-led architecture, strict security controls, and AI-enhanced workflows.</p>
+        </article>
+        <article class="info-card">
+          <h3>Healthcare & Life Sciences</h3>
+          <p>Privacy-first engineering and compliant cloud delivery with responsible AI implementation and data governance.</p>
+        </article>
+        <article class="info-card">
+          <h3>Enterprise SaaS</h3>
+          <p>Cloud-native product engineering and microservices transformation that accelerate innovation without sacrificing stability.</p>
+        </article>
       </div>
 
-      <div class="card">
-        <h3>Healthcare & Life Sciences</h3>
-        <p>
-          Privacy-first engineering and compliant cloud delivery for healthcare ecosystems.
-          We implement AI responsibly while ensuring data governance, system resilience,
-          and operational continuity.
-        </p>
+      <div class="kpi-grid">
+        <article class="kpi">
+          <h4>3</h4>
+          <p>Primary industry tracks</p>
+        </article>
+        <article class="kpi">
+          <h4>Security</h4>
+          <p>Built into delivery by design</p>
+        </article>
+        <article class="kpi">
+          <h4>Compliance</h4>
+          <p>Domain-aware execution approach</p>
+        </article>
+        <article class="kpi">
+          <h4>Scale</h4>
+          <p>Architectures built for growth</p>
+        </article>
       </div>
+    </section>
+  </main>
 
-      <div class="card">
-        <h3>Enterprise SaaS</h3>
-        <p>
-          Cloud-native product engineering with scalable backend systems, microservices transformation,
-          and AI enablement that accelerates innovation without compromising stability or security.
-        </p>
-      </div>
-
-    </div>
-  </div>
-
-  <!-- CTA -->
-  <div class="container section" style="text-align:center;">
-    <h2>Need Industry-Aligned Execution?</h2>
-    <p style="max-width:750px; margin:0 auto;">
-      Share your initiative and we’ll outline a clear delivery approach aligned to your domain,
-      compliance requirements, and growth objectives.
-    </p>
-    <a href="contact.html" class="btn">Start a Conversation</a>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    <p><strong>NextGenStack Inc</strong></p>
-    <p>AI-First Consulting | Platform Modernization | Enterprise Delivery</p>
+  <footer class="footer">
+    <p><strong>NextGenStack INC</strong></p>
+    <p>Staffing | AI-First Consulting | Enterprise Delivery</p>
     <p>Pennsylvania, United States</p>
-    <p>© 2026 NextGenStack Inc. All Rights Reserved.</p>
-  </div>
+    <p>© 2026 NextGenStack INC. All rights reserved.</p>
+  </footer>
 
+  <script src="js/main.js"></script>
 </body>
 </html>

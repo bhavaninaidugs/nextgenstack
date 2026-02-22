@@ -3,82 +3,86 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About | NextGenStack Inc</title>
-  <meta name="description" content="US-based AI-First Consulting & Delivery Company focused on enterprise implementation, disciplined engineering execution, and trusted talent.">
+  <title>About | NextGenStack INC</title>
+  <meta name="description" content="US-based AI-First Consulting and Delivery company focused on enterprise implementation, disciplined engineering execution, and trusted talent.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+  <div class="site-bg" aria-hidden="true"></div>
 
-  <!-- NAVBAR -->
-  <div class="navbar">
-    <div><strong>NextGenStack</strong></div>
-    <div>
+  <header class="navbar">
+    <a class="brand" href="index.html" aria-label="NextGenStack INC home">
+      <img src="assets/logo-nextgenstack-inc.svg" alt="NextGenStack INC logo" class="brand-logo">
+    </a>
+    <nav class="nav-links" aria-label="Primary">
       <a href="index.html">Home</a>
       <a href="services.html">Services</a>
       <a href="industries.html">Industries</a>
-      <a href="about.html">About</a>
+      <a href="about.html" aria-current="page">About</a>
       <a href="contact.html">Contact</a>
-    </div>
-  </div>
+    </nav>
+  </header>
 
-  <!-- HEADER -->
-  <div class="container section" style="text-align:center;">
-    <h1>About NextGenStack</h1>
-    <p style="max-width:900px; margin:0 auto;">
-      NextGenStack is a US-based AI-First Consulting & Delivery Company supporting enterprise programs with disciplined execution and forward-looking AI integration. 
-      We combine intelligent systems implementation with structured engineering delivery to help organizations modernize with confidence.
-    </p>
-  </div>
+  <main>
+    <section class="page-hero container reveal">
+      <p class="eyebrow">Who We Are</p>
+      <h1>About NextGenStack INC</h1>
+      <p>
+        NextGenStack is a US-based AI-First Consulting and Delivery Company supporting enterprise programs with
+        disciplined execution and forward-looking AI integration.
+      </p>
+      <div class="page-media">
+        <img src="assets/visuals/team.avif" alt="NextGenStack team visual">
+      </div>
+    </section>
 
-  <!-- CONTENT CARDS -->
-  <div class="container section">
-    <div class="grid">
-
-      <div class="card">
-        <h3>Our Focus</h3>
-        <p>
-          We help enterprises implement AI capabilities, modernize core platforms, and strengthen engineering execution. 
-          Every engagement is built around production readiness, scalability, and long-term maintainability.
-        </p>
+    <section class="container section reveal">
+      <div class="grid-three">
+        <article class="info-card">
+          <h3>Our Focus</h3>
+          <p>We help enterprises implement AI capabilities, modernize core platforms, and strengthen engineering execution.</p>
+        </article>
+        <article class="info-card">
+          <h3>How We Deliver</h3>
+          <p>We operate with ownership and enterprise-grade discipline, aligning to client roadmaps with measurable outcomes.</p>
+        </article>
+        <article class="info-card">
+          <h3>Trusted Engineering Talent</h3>
+          <p>Experienced and vetted engineers supporting AI integration, platform modernization, and high-performance delivery.</p>
+        </article>
       </div>
 
-      <div class="card">
-        <h3>How We Deliver</h3>
-        <p>
-          We operate with clarity, ownership, and enterprise-grade discipline. 
-          Our teams align to client roadmaps, integrate seamlessly into delivery programs, 
-          and execute with measurable impact.
-        </p>
+      <div class="kpi-grid">
+        <article class="kpi">
+          <h4>US-Based</h4>
+          <p>Consulting and delivery operations</p>
+        </article>
+        <article class="kpi">
+          <h4>Enterprise</h4>
+          <p>Execution discipline and governance</p>
+        </article>
+        <article class="kpi">
+          <h4>AI-First</h4>
+          <p>Practical business implementation</p>
+        </article>
+        <article class="kpi">
+          <h4>Vetted</h4>
+          <p>Engineering staffing capability</p>
+        </article>
       </div>
+    </section>
+  </main>
 
-      <div class="card">
-        <h3>Trusted Engineering Talent</h3>
-        <p>
-          We provide experienced, carefully vetted engineers who operate confidently 
-          in structured enterprise environments—supporting AI integration, 
-          platform modernization, and high-performance delivery initiatives.
-        </p>
-      </div>
+  <footer class="footer">
+    <p><strong>NextGenStack INC</strong></p>
+    <p>Staffing | AI-First Consulting | Enterprise Delivery</p>
+    <p>Pennsylvania, United States</p>
+    <p>© 2026 NextGenStack INC. All rights reserved.</p>
+  </footer>
 
-    </div>
-  </div>
-
-  <!-- CTA -->
-  <div class="container section" style="text-align:center;">
-    <h2>Built for Enterprise Execution</h2>
-    <p style="max-width:780px; margin:0 auto;">
-      Whether you’re advancing AI initiatives or modernizing digital platforms, 
-      NextGenStack supports your programs with trusted delivery and high-quality engineering execution.
-    </p>
-    <a href="contact.html" class="btn">Start a Conversation</a>
-  </div>
-
-  <!-- FOOTER -->
-  <div class="footer">
-    <p><strong>NextGenStack Inc</strong></p>
-    <p>AI-First Consulting | Enterprise Delivery | Trusted Engineering Talent</p>
-    <p>© 2026 NextGenStack Inc. All Rights Reserved.</p>
-  </div>
-
+  <script src="js/main.js"></script>
 </body>
 </html>

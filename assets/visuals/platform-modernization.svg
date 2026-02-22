@@ -1,0 +1,31 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Platform Modernization illustration</title>
+  <desc id="d">Modern cloud and API architecture visual in enterprise blue style.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#031125"/>
+      <stop offset="1" stop-color="#0A356C"/>
+    </linearGradient>
+    <linearGradient id="block" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#89E9FF"/>
+      <stop offset="1" stop-color="#4F8DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g opacity="0.2" stroke="#4C91FF">
+    <path d="M0 96H1200M0 192H1200M0 288H1200M0 384H1200M0 480H1200M0 576H1200"/>
+    <path d="M100 0V720M200 0V720M300 0V720M400 0V720M500 0V720M600 0V720M700 0V720M800 0V720M900 0V720M1000 0V720M1100 0V720"/>
+  </g>
+  <rect x="120" y="120" width="300" height="120" rx="18" fill="#08224E" stroke="#3D71D6"/>
+  <rect x="450" y="120" width="300" height="120" rx="18" fill="#08224E" stroke="#3D71D6"/>
+  <rect x="780" y="120" width="300" height="120" rx="18" fill="#08224E" stroke="#3D71D6"/>
+  <rect x="285" y="310" width="300" height="120" rx="18" fill="#08224E" stroke="#3D71D6"/>
+  <rect x="615" y="310" width="300" height="120" rx="18" fill="#08224E" stroke="#3D71D6"/>
+  <rect x="450" y="500" width="300" height="120" rx="18" fill="#08224E" stroke="#3D71D6"/>
+  <path d="M420 180H450M750 180H780M585 370H615M585 560H450M750 370H915" stroke="url(#block)" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="450" cy="180" r="12" fill="#9BEFFF"/>
+  <circle cx="780" cy="180" r="12" fill="#9BEFFF"/>
+  <circle cx="615" cy="370" r="12" fill="#9BEFFF"/>
+  <circle cx="450" cy="560" r="12" fill="#9BEFFF"/>
+  <circle cx="915" cy="370" r="12" fill="#9BEFFF"/>
+</svg>

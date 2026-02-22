@@ -1,0 +1,35 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">Vetted Talent illustration</title>
+  <desc id="d">Professional talent network visual with approval badges.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041027"/>
+      <stop offset="1" stop-color="#062C57"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#6EDFFF"/>
+      <stop offset="1" stop-color="#4E78FF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g opacity="0.18" stroke="#4A89F6">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200"/>
+    <path d="M120 0V720M240 0V720M360 0V720M480 0V720M600 0V720M720 0V720M840 0V720M960 0V720M1080 0V720"/>
+  </g>
+  <rect x="170" y="140" width="860" height="440" rx="28" fill="#071D42" stroke="#2E5FB6"/>
+  <circle cx="360" cy="300" r="62" fill="#0F3C7B"/>
+  <circle cx="600" cy="300" r="62" fill="#0F3C7B"/>
+  <circle cx="840" cy="300" r="62" fill="#0F3C7B"/>
+  <circle cx="360" cy="278" r="20" fill="url(#card)"/>
+  <rect x="330" y="310" width="60" height="34" rx="17" fill="url(#card)"/>
+  <circle cx="600" cy="278" r="20" fill="url(#card)"/>
+  <rect x="570" y="310" width="60" height="34" rx="17" fill="url(#card)"/>
+  <circle cx="840" cy="278" r="20" fill="url(#card)"/>
+  <rect x="810" y="310" width="60" height="34" rx="17" fill="url(#card)"/>
+  <circle cx="470" cy="460" r="20" fill="#27D3B4"/>
+  <path d="M460 460L468 468L482 452" stroke="#042A24" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="600" cy="460" r="20" fill="#27D3B4"/>
+  <path d="M590 460L598 468L612 452" stroke="#042A24" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="730" cy="460" r="20" fill="#27D3B4"/>
+  <path d="M720 460L728 468L742 452" stroke="#042A24" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

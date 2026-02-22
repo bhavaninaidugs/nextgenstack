@@ -1,0 +1,28 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="t d">
+  <title id="t">AI Integration illustration</title>
+  <desc id="d">Abstract enterprise AI integration dashboard visual in blue gradients.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#041329"/>
+      <stop offset="1" stop-color="#08285c"/>
+    </linearGradient>
+    <linearGradient id="node" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7EE8FF"/>
+      <stop offset="1" stop-color="#4D7DFF"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" fill="url(#bg)"/>
+  <g opacity="0.22" stroke="#4F8DFF">
+    <path d="M0 90H1200M0 180H1200M0 270H1200M0 360H1200M0 450H1200M0 540H1200M0 630H1200"/>
+    <path d="M120 0V720M240 0V720M360 0V720M480 0V720M600 0V720M720 0V720M840 0V720M960 0V720M1080 0V720"/>
+  </g>
+  <rect x="120" y="120" width="960" height="480" rx="28" fill="#071b3d" stroke="#2B5FC4"/>
+  <circle cx="270" cy="240" r="44" fill="url(#node)"/>
+  <circle cx="600" cy="220" r="44" fill="url(#node)"/>
+  <circle cx="930" cy="260" r="44" fill="url(#node)"/>
+  <circle cx="370" cy="430" r="44" fill="url(#node)"/>
+  <circle cx="720" cy="430" r="44" fill="url(#node)"/>
+  <path d="M305 240H556M644 225L886 258M307 258L336 396M644 240L676 402M414 430H676" stroke="#82C2FF" stroke-width="9" stroke-linecap="round"/>
+  <rect x="150" y="510" width="420" height="58" rx="14" fill="#0B2E62"/>
+  <rect x="590" y="510" width="460" height="58" rx="14" fill="#0B2E62"/>
+</svg>

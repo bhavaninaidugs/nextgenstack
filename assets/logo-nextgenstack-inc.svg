@@ -1,0 +1,54 @@
+<svg width="980" height="260" viewBox="0 0 980 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">NextGenStack INC logo</title>
+  <desc id="logoDesc">Six-layer stacked logo with three modern gradient color groups for NextGenStack INC.</desc>
+
+  <defs>
+    <linearGradient id="blueGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#75D8FF"/>
+      <stop offset="55%" stop-color="#4D90FF"/>
+      <stop offset="100%" stop-color="#2F5BFF"/>
+    </linearGradient>
+
+    <linearGradient id="violetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C7A6FF"/>
+      <stop offset="55%" stop-color="#8C5BFF"/>
+      <stop offset="100%" stop-color="#6641E8"/>
+    </linearGradient>
+
+    <linearGradient id="cyanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6CF7E8"/>
+      <stop offset="55%" stop-color="#34C9C8"/>
+      <stop offset="100%" stop-color="#1C9DA6"/>
+    </linearGradient>
+
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#5AA7FF"/>
+      <stop offset="52%" stop-color="#8A5CFF"/>
+      <stop offset="100%" stop-color="#2EC9B8"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="0" y="0" width="360" height="260" filterUnits="userSpaceOnUse">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <g transform="translate(40,0)" filter="url(#softGlow)">
+    <polygon points="0,16 200,16 250,42 50,42" fill="url(#blueGrad)"/>
+    <polygon points="0,52 200,52 250,78 50,78" fill="url(#blueGrad)" opacity="0.96"/>
+
+    <polygon points="0,90 200,90 250,116 50,116" fill="url(#violetGrad)"/>
+    <polygon points="0,126 200,126 250,152 50,152" fill="url(#violetGrad)" opacity="0.96"/>
+
+    <polygon points="0,164 200,164 250,190 50,190" fill="url(#cyanGrad)"/>
+    <polygon points="0,200 200,200 250,226 50,226" fill="url(#cyanGrad)" opacity="0.96"/>
+  </g>
+
+  <g transform="translate(0,-18)">
+    <text x="360" y="132" font-family="Inter, Montserrat, Segoe UI, Arial, sans-serif" font-size="86" font-weight="700" fill="url(#nameGrad)">NextGenStack</text>
+    <text x="364" y="184" font-family="Inter, Montserrat, Segoe UI, Arial, sans-serif" font-size="34" font-weight="600" fill="#99A9C6">INC</text>
+  </g>
+</svg>
