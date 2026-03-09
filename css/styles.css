@@ -88,12 +88,15 @@ p {
 .nav-links {
   display: flex;
   gap: 20px;
+  flex-wrap: wrap;
+  justify-content: flex-end;
 }
 
 .nav-links a {
   text-decoration: none;
   color: var(--text);
   font-size: 0.97rem;
+  white-space: nowrap;
   transition: color 0.2s ease;
 }
 
@@ -646,6 +649,14 @@ textarea:focus {
 }
 
 @media (max-width: 1024px) {
+  .navbar {
+    gap: 12px;
+  }
+
+  .nav-links {
+    gap: 12px 16px;
+  }
+
   .hero {
     grid-template-columns: 1fr;
     gap: 28px;
@@ -674,6 +685,15 @@ textarea:focus {
   .metric-row {
     grid-template-columns: repeat(2, minmax(120px, 1fr));
   }
+
+  .hero .metric-row {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .hero .metric-card {
+    min-height: 0;
+  }
 }
 
 @media (max-width: 780px) {
@@ -684,7 +704,8 @@ textarea:focus {
   }
 
   .nav-links {
-    flex-wrap: wrap;
+    width: 100%;
+    justify-content: flex-start;
     gap: 12px;
   }
 
@@ -693,6 +714,10 @@ textarea:focus {
   }
 
   .metric-row {
+    grid-template-columns: 1fr;
+  }
+
+  .hero .metric-row {
     grid-template-columns: 1fr;
   }
 
@@ -728,9 +753,64 @@ textarea:focus {
     color: #02122f;
     background: linear-gradient(110deg, #7ddfff, #4b79ff);
     box-shadow: 0 14px 28px rgba(9, 31, 79, 0.42);
+    width: min(340px, calc(100% - 32px));
   }
 
   .footer {
     padding-bottom: 78px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container,
+  .navbar {
+    width: min(1140px, 94vw);
+  }
+
+  .brand-logo {
+    width: clamp(155px, 52vw, 220px);
+  }
+
+  .nav-links a {
+    font-size: 0.92rem;
+  }
+
+  .section {
+    padding: 56px 0;
+  }
+
+  .hero {
+    padding: 54px 0 20px;
+  }
+
+  .lead,
+  .page-hero p,
+  .info-card p,
+  .case-card p {
+    font-size: 0.96rem;
+  }
+
+  .kpi-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .carousel {
+    min-height: 325px;
+  }
+
+  .carousel-slide img {
+    height: 325px;
+  }
+
+  .slide-overlay {
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 12px;
+  }
+
+  .slide-overlay h3 {
+    font-size: 1.2rem;
+    margin-bottom: 6px;
   }
 }
